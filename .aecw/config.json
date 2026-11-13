@@ -1,0 +1,21 @@
+{
+  "project": "deskhand",
+  "owner": "xiiiou",
+  "gates": [
+    {
+      "name": "tests",
+      "command": "node scripts/aecw-selfcheck.mjs",
+      "timeoutMs": 120000
+    }
+  ],
+  "declaration": {
+    "verifiable": [
+      "node scripts/aecw-selfcheck.mjs：包清单、bundle 补丁、locale、图标、helper 可执行位、Host 模块可导入、helper selftest（截屏/剪贴板/屏幕信息）"
+    ],
+    "human": [
+      "项目内容与交付质量",
+      "实机桌面操作是否符合预期（点击/输入/回看），以及安全边界是否可接受"
+    ],
+    "noExecutableChecks": false
+  }
+}

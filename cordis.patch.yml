@@ -1,0 +1,6 @@
+# deskhand：W0 最小闭环。Host 侧只注册工具，所有系统调用在 helper\deskhand.exe 里。
+- insert:
+    - id: deskhand
+      name: '@local/deskhand'
+      config:
+        dataDir: data

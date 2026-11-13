@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#1f2937"/>
+  <!-- 眼：看见 -->
+  <ellipse cx="18" cy="17" rx="9" ry="6" fill="none" stroke="#e5e7eb" stroke-width="2"/>
+  <circle cx="18" cy="17" r="2.4" fill="#e5e7eb"/>
+  <!-- 手：指针 -->
+  <path d="M31 9 l11 20 l4 -8 l8 -3 z" fill="#f59e0b" stroke="#1f2937" stroke-width="1.2" stroke-linejoin="round"/>
+  <!-- 耳：听见 -->
+  <path d="M13 43 q0 -9 8 -9 q7 0 7 7 q0 7 -7 7 q-5 0 -5 -4 q0 -3 4 -3" fill="none" stroke="#e5e7eb" stroke-width="2" stroke-linecap="round"/>
+  <!-- 嘴：说出（声波） -->
+  <path d="M35 42 q7 6 14 0" fill="none" stroke="#e5e7eb" stroke-width="2" stroke-linecap="round"/>
+  <path d="M53 36 q3 6 0 12" fill="none" stroke="#f59e0b" stroke-width="2" stroke-linecap="round"/>
+</svg>

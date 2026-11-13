@@ -1,0 +1,35 @@
+{
+  "name": "@local/deskhand",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "观行：桌面眼睛、手、耳朵与嘴巴——截屏、点击、键入、听写（朗读规划中）。",
+  "exports": {
+    ".": "./index.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "index.js",
+    "cordis.patch.yml",
+    "locale/*.json",
+    "icon.svg",
+    "helper/deskhand.cs",
+    "helper/deskhand.exe",
+    "scripts/*.mjs",
+    "scripts/build.ps1",
+    "scripts/start-broker.cmd",
+    "scripts/install-startup.ps1",
+    "README.md",
+    "AGENTS.md"
+  ],
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    }
+  },
+  "scripts": {
+    "build:helper": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/build.ps1",
+    "selfcheck": "node scripts/aecw-selfcheck.mjs"
+  }
+}

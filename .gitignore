@@ -1,0 +1,6 @@
+# 私有运行时数据：broker token、审计/审批日志、截图、黑名单
+data/
+# 构建产物（由 install-startup.cmd 重新编译）
+helper/*.exe
+# 日志
+*.log
